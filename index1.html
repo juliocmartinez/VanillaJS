@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="JavaScript" type="text/javascript">
+        function segundos(){
+        var xsegundos=ejercicio4.segundo.value;
+        document.getElementById('hora').value=xsegundos/3600;
+        document.getElementById('minuto').value=xsegundos/60;
+        }
+    </script>
+</head>
+
+<body>
+    <form method="get" name="ejercicio4">
+        INGRESE TOTAL DE SEGUNDOS : <input name="segundo" type="text" > <br>
+         <input type="button" value="CALCULAR" onClick="segundos()" > <br>
+        HORAS : <input name="hora" id="hora" type="text" > <br>
+        MINUTOS : <input name="minuto" id="minuto" type="text" > <br>
+    </form>
+    
+</body>
+</html>
